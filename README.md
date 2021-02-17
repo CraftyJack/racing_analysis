@@ -13,5 +13,5 @@ I used geopy with nominatim (because it's free). One helpful lesson here: Nomina
 
 ## Clustermap
 Here's a clustermap for the 2019 NYC Marathon. (Check out the one runner from Nuussuaq, Greenland!)
-![Clustermap](https://github.com/CraftyJack/racing_analysis/blob/2019_NYCM_finishers_clustermap.png?raw=true)
+![Clustermap](https://github.com/CraftyJack/racing_analysis/blob/main/2019_NYCM_finishers_clustermap.png?raw=true)
 
