@@ -1,0 +1,10 @@
+# We want to ignore some rather large raw data files, so we'll make a special directory just for them.
+
+# raw data files
+00_Data/raw_data/*
+
+# geodata files
+00_Data/geodata/*
+
+# We also want to ignore the chromedriver.exe file.
+chromedriver.exe
