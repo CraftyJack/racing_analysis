@@ -11,3 +11,6 @@
 
 # We also want to ignore the chromedriver.exe file.
 chromedriver.exe
+
+# Ignore any jupyter notebook checkpoints
+.ipynb_checkpoints
