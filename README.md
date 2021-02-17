@@ -2,7 +2,7 @@
 The goal of this project is to do some analysis on running races. This is a personal interest as a runner, and also an interesting project for trying some new things.
 
 ## Questions
-1. Where did all the runners come from? Can we map it?
+1. Where did all the runners come from? Can we map it? (Yes, see below.)
 2. Where did the runners close to me (or any particular individual) come from? Can we map it?
 
 ## Data Acquisition
@@ -11,4 +11,7 @@ Race results are publicly available, and the level of detail varies from race to
 ## Geocoding
 I used geopy with nominatim (because it's free). One helpful lesson here: Nominatim does a much better job with international addresses if the country name is spelled out rather than abbreviated, e.g. 'Italy' is better than 'ITA'.
 
+## Clustermap
+Here's a clustermap for the 2019 NYC Marathon. (Check out the one runner from Nuussuaq, Greenland!)
+![Clustermap](https://github.com/CraftyJack/racing_analysis/blob/2019_NYCM_finishers_clustermap.png?raw=true)
 
