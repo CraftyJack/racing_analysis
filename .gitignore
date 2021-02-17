@@ -6,5 +6,8 @@
 # geodata files
 00_Data/geodata/*
 
+# test maps that get generated
+03_geocoding/map*
+
 # We also want to ignore the chromedriver.exe file.
 chromedriver.exe
