@@ -12,6 +12,6 @@ Race results are publicly available, and the level of detail varies from race to
 I used geopy with nominatim (because it's free). One helpful lesson here: Nominatim does a much better job with international addresses if the country name is spelled out rather than abbreviated, e.g. 'Italy' is better than 'ITA'.
 
 ## Clustermap
-Here's a clustermap for the 2019 NYC Marathon. (Check out the one runner from Nuussuaq, Greenland!)
+Here's a clustermap for the 2019 NYC Marathon, generated using folium. (Check out the one runner from Nuussuaq, Greenland!)
 ![Clustermap](https://github.com/CraftyJack/racing_analysis/blob/main/2019_NYCM_finishers_clustermap.png?raw=true)
 
