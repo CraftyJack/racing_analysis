@@ -9,7 +9,8 @@ The goal of this project is to do some analysis on running races. This is a pers
 Race results are publicly available, and the level of detail varies from race to race. This repository includes a Selenium-based scraper for getting race data. Because the available data can vary from race to race, the scraper is designed to be flexible in what data it looks for. It works by requesting results for a specific race by bib number, which presumes that we already know a range of bib numbers for the finishers. The races range from a few hundred finishers, to more than 55,000 finishers.
 
 ## Geocoding
-I used geopy with nominatim (because it's free). One helpful lesson here: Nominatim does a much better job with international addresses if the country name is spelled out rather than abbreviated, e.g. 'Italy' is better than 'ITA'.
+I used geopy with nominatim (because it's free). One helpful lesson here: Nominatim does a much better job with international addresses if the country name is spelled out rather than abbreviated, e.g. 'Italy' is better than 'ITA'.  
+The addresses as scraped are not validated, and there's plenty of opportunities for cleaning there. Everything from non-standard country codes to simple misspellings.
 
 ## Clustermap
 Here's a screenshot of a clustermap for the 2019 NYC Marathon, generated using folium. (Check out the one runner from Nuussuaq, Greenland!)
