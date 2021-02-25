@@ -15,3 +15,6 @@ chromedriver.exe
 # Ignore any jupyter notebook checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# Ignore anything with "DEADEND" in the name
+*DEADEND*
