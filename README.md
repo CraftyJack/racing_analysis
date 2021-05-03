@@ -1,6 +1,8 @@
 # racing_analysis
 The goal of this project is to do some analysis on running races. This is a personal interest as a runner, and also an interesting project for trying some new things.
 
+Note that there are some additional Tableau Public visualizations for the 2019 NYC 60K over [here.](https://public.tableau.com/profile/jack.craft#!/vizhome/2019NYC60K/Story1 "2019 NUC 60K in Tableau")
+
 ## Questions
 1. Where did all the runners come from? Can we map it? (Yes, see below.)
 2. Where did the runners close to me (or any particular individual) come from? Can we map it?
